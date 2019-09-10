@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  border: 1px solid grey;
+
+/*****GENERAL STYLES*****/
+.container {
+  margin: 2% 10%;
+  font-family: 'Titillium Web', sans-serif;
+  line-height: 2;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Bangers', cursive;
+  text-align: center;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+p {
+  margin: 0 5px 5px 0;
+}
+
+/*****HEADER STYLES*****/
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a {
+    font-size: 15px;
+    color: gray;
+    text-decoration: none;
+}
+
+/*****TOP CONTENT STYLES*****/
+.top-content {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid black;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+  }
+
+.top-content img {
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+.top-content h1 {
+    font-size: 30px;
+    margin: 20px 0;
+  }
+
+  /*****MIDDLE CONTENT STYLES*****/
+.middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+  }
+
+.middle-content .text-content {
+    width: 43%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid black;
+    background: whitesmoke;
+}
+
+.middle-content h4 {
+    margin: 0;
+}
+
+.middle-content p {
+    margin: 10px 0;
+}
+
+.middle-content .text-content button {
+    background: white;
+    color:black;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 30px;
+    width: 150px;
+  }
+
+.middle-content .text-content button:hover {
+  background: black;
+  color: white;
+}
+
+/*****BOTTOM CONTENT STYLES*****/
+.bottom-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.bottom-content .text-content {
+    width: 43%;
+    display: flex;
+    flex-direction: column;
+}
+
+/*****FOOTER STYLES*****/
+footer {
+  text-align: center;
+}
